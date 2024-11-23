@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+    border:  solid white;
+    color: white;
+    font-size: 50px;
+}
+
+#boxes{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn{
+    padding: 1em;
+    border: none;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+    margin: 3em;
+}
+#win{
+    color: red;
+    font-size: 40px;
+    margin: 20px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+#newGame{
+    visibility: hidden;
+}
